@@ -15,10 +15,12 @@ diwali k liye ghar gaya
 3-nov-: 2
 4 nov :2
 5-nov :2
-6-nov:2 (2 extra questoin 7th nov ko kiye)
-7 nov: 4
-8,
-9 nov :2  updated on git
+
+7 nov: 4 +(2 extra questoin 7th nov ko kiye)
+
+9 nov :2+2  updated on git
+
+12 nov : 4 question
 
 	1. Write a function to reverse a string.
 	2. Write a function that finds the largest number in an array.
@@ -52,10 +54,11 @@ diwali k liye ghar gaya
 	30. How do you debounce a function in JavaScript, and why is it useful?
 	31. Write a function to sort an array of strings by their length.
 	32. What is the difference between `call()`, `apply()`, and `bind()`?
-33. How would you check if two objects have the same set of properties?
-34. Write a function to calculate the average of numbers in an array.
-35. Write a function that returns a new array with all elements that occur more than once.
-36. How do you use JavaScript’s `reduce()` to flatten an array?
+	33. How would you check if two objects have the same set of properties?
+	34. Write a function to calculate the average of numbers in an array.
+	35. Write a function that returns a new array with all elements that occur more than once.
+	36. How do you use JavaScript’s `reduce()` to flatten an array?
+
 37. Write a function to rotate an array to the left by `k` positions.
 38. How do you convert a callback-based function to a promise-based function?
 39. Write a function to generate a random number between two given numbers.
