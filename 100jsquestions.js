@@ -21,6 +21,7 @@ diwali k liye ghar gaya
 9 nov :2+2  updated on git
 
 12 nov : 4 question
+13 - dec 2 question
 
 	1. Write a function to reverse a string.
 	2. Write a function that finds the largest number in an array.
@@ -59,8 +60,8 @@ diwali k liye ghar gaya
 	35. Write a function that returns a new array with all elements that occur more than once.
 	36. How do you use JavaScript’s `reduce()` to flatten an array?
 
-37. Write a function to rotate an array to the left by `k` positions.
-38. How do you convert a callback-based function to a promise-based function?
+	37. Write a function to rotate an array to the left by `k` positions.
+	38. How do you convert a callback-based function to a promise-based function?
 39. Write a function to generate a random number between two given numbers.
 40. What is a promise in JavaScript, and what problem does it solve?
 41. Write a function to count vowels in a given string.
