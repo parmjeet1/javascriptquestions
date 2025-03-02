@@ -1,0 +1,4 @@
+/*
+return a sum  even no repeated element using higher order function
+
+*/

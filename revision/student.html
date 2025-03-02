@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Student Mangement</title>
+
+</head>
+<body>
+
+<form >
+<input type='text' name="name" id="name" placeholder="name">
+<input type='submit' name="submit" id="submit" value="submit">
+<input type='submit' name="submit" id="clearForm" value="Clear Form">
+
+
+</form >
+<p id="localStorageName"></p>
+
+<script>
+
+
+let submitButton=document.getElementById("submit");
+submitButton.addEventListener("click",()=>{
+
+let name=document.getElementById("name").value;
+localStorage.setItem("name",name);
+
+  })
+let clearForm=document.getElementById("clearForm");
+clearForm.addEventListener("click",()=>{
+localStorage.clear();
+
+})
+
+let fetchName=localStorage.getItem("name");
+let localStorageName=document.getElementById("localStorageName");
+localStorageName.innerHTML=fetchName;
+
+</script>
+
+</body>
+</html>

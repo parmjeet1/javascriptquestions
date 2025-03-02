@@ -1,0 +1,126 @@
+<html>
+    <head>
+<title>DOM manipulation</title>
+
+</head>
+    <body>
+    <div id="divId"></div>
+    <input type="text" id="textInput1" placeholder="type number1">
+    <input type="text" id="textInput2" placeholder="type number2">
+
+    <button onclick="addValue()">Add value</button>
+    <button onclick="minusValue()">Minus value</button>
+
+    <button onclick="clearText()">clear Text</button>
+    <!-- <img src="" style="display: none;"> -->
+     <!-- 
+    on click i want to show a image without updating img atributes.
+    lets do add an img element after some div and keep it image
+    -->
+
+<input type="submit" onclick="addNeimg()" value="add an image">
+
+<div class="container">
+
+<div style="width:40px;height:50px; background-color:green; color:black;" id="changeDiv" > on cursor</div>
+
+<div>
+
+<div id="imgDiv">
+
+<div class="boxDiv" style="height:80px; width:80px ;background-color:pink">
+<input type="text" id="imgUrlInput" >
+<input type="submit" id="addImageFromUrl" value="add image">
+</div>
+</div>
+<script>
+let addImageFromUrl= document.getElementById("addImageFromUrl");
+let boxDiv=document.getElementsByClassName("boxDiv")[0];
+addImageFromUrl.addEventListener("click",()=>{
+
+let updatedImage=document.getElementById("updatedImage");
+if(updatedImage){
+window.alert("already available");
+}
+else{
+
+ imgUrl=String(document.getElementById("imgUrlInput").value);
+ let imgName=document.createElement("img");
+ imgName.id = "updatedImage";
+imgName.src=imgUrl;
+imgName.style.width=300;
+imgName.style.height=250;
+document.body.appendChild(imgName);
+ // boxDiv.insertBefore(imgName,imgUrlInput);
+
+}
+
+})
+
+
+boxDiv.addEventListener("mouseover",()=>{
+let boxDiv=document.getElementsByClassName("boxDiv")[0];
+boxDiv.style.backgroundColor="yellow"
+})
+
+
+let changeDiv=document.querySelector("#changeDiv");
+
+changeDiv.addEventListener("mouseover",()=>{
+changeDiv.style.backgroundColor="pink";
+changeDiv.style.width="500px";
+changeDiv.style.fontSize="30px";
+changeDiv.style.fontWeight="bold"
+});
+
+changeDiv.addEventListener("mousemove", ()=>{
+changeDiv.style.backgroundColor="red";
+})
+changeDiv.addEventListener("mouseenter",()=>{
+changeDiv.style.backgroundColor="black";
+changeDiv.style.color="white";
+})
+
+changeDiv.addEventListener("mouseout",()=>{
+changeDiv.style.backgroundColor="yellow"
+changeDiv.style.fontSize="30px";
+changeDiv.style.fontWeight="normal";
+changeDiv.style.paddingLeft="20px";
+changeDiv.style.paddingRight="20px";
+})
+
+function addNeimg(){
+/*let newPragraph=document.createElement("p");
+ newPragraph.textContent="this pragraph is added dynamically";
+changeDiv.appendChild(newPragraph);
+*/
+
+let imgElement=document.createElement("img");
+imgElement.src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
+imgElement.width="200";
+imgElement.height="90";
+let container = document.getElementsByClassName("container")[0];
+container.insertBefore(imgElement,changeDiv);
+
+
+}
+   let divId=document.getElementById('divId');
+   function addValue(){
+        let textInput1= Number(document.getElementById("textInput1").value);
+        let textInput2= Number(document.getElementById("textInput2").value);
+ let sum=textInput1+textInput2;
+divId.innerHTML=sum;
+divId.style.fontSize="34px";
+divId.style.fontWeight="bold";
+divId.style.color="green"
+//divId.style="font-weight:bold; font-size:30px;color:green"
+
+    }
+
+    function clearText(){
+divId.style="display:none";
+
+    }
+</script>    
+</body>
+</html>

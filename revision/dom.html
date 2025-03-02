@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Student Mangement</title>
+</head>
+<body>
+<script>
+let submit=document.getElementById("submit");
+submit.addEventListener("click",()=>{
+let name=document.getElementById("name");
+updatedName=localStorage.setLocalitem("Student",name);
+
+if(updatedName){
+document.alert("updated successfully")
+}
+
+})
+function addStudentRecord()
+</script>
+<form >
+<input type='text' name="name" id="name" placeholder="name">
+<input type='submit' name="submit" id="submit"  vlaue="submit">
+
+</form >
+</body>
+</html>
