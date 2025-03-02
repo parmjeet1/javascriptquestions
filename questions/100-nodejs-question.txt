@@ -1,0 +1,118 @@
+========================================
+        NODE.JS INTERVIEW QUESTIONS
+========================================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is Node.js, and why is it used?
+2. How does Node.js work?
+3. What are the key features of Node.js?
+4. Is Node.js single-threaded or multi-threaded? Explain.
+5. What is the difference between Node.js and JavaScript?
+6. What is the event loop in Node.js?
+7. Explain how non-blocking I/O works in Node.js.
+8. What is npm? How does it work?
+9. What is the difference between `dependencies` and `devDependencies` in `package.json`?
+10. How do you install a package globally in Node.js?
+11. What is the difference between `require()` and `import`?
+12. How do you create a simple HTTP server in Node.js?
+13. What are streams in Node.js?
+14. Explain the different types of streams in Node.js.
+15. What is the purpose of the `fs` module in Node.js?
+16. How do you read and write files using Node.js?
+17. What is the purpose of `process` in Node.js?
+18. How do you handle errors in Node.js?
+19. What is `buffer` in Node.js?
+20. What is the difference between synchronous and asynchronous programming in Node.js?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+21. What is middleware in Node.js?
+22. How do you handle authentication in Node.js?
+23. What is Express.js, and why is it used?
+24. How do you define a route in Express.js?
+25. What is the difference between `app.get()` and `app.post()` in Express.js?
+26. What is CORS? How do you enable it in Express.js?
+27. What are environment variables in Node.js, and how do you use them?
+28. How do you secure environment variables in Node.js?
+29. What is the purpose of `jsonwebtoken (JWT)` in Node.js?
+30. What is the difference between `PUT`, `PATCH`, and `DELETE` in REST API development?
+31. How do you validate data in Node.js?
+32. What is the difference between synchronous and asynchronous file handling?
+33. What is the difference between callbacks and promises?
+34. What is `async/await`, and how does it work?
+35. How do you handle errors using `try/catch` in an async function?
+36. How do you handle multiple asynchronous operations in Node.js?
+37. What is the purpose of the `util.promisify()` method?
+38. What is the purpose of `crypto` module in Node.js?
+39. What is the difference between `setImmediate()`, `setTimeout()`, and `process.nextTick()`?
+40. What is an event emitter in Node.js?
+41. What are child processes in Node.js?
+42. How do you create a child process in Node.js?
+43. How do you make API requests in Node.js?
+44. How do you handle file uploads in Node.js?
+45. What is rate limiting, and how do you implement it in Node.js?
+46. What are WebSockets, and how do they work in Node.js?
+47. What is socket.io, and how does it work?
+48. What is cluster mode in Node.js?
+49. How do you create and manage worker threads in Node.js?
+50. What is process management in Node.js?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+51. What is the difference between Monolithic and Microservices architecture?
+52. How do you implement microservices using Node.js?
+53. What is an API Gateway, and why is it used in microservices?
+54. What is gRPC, and how does it compare to REST?
+55. How do you optimize performance in a Node.js application?
+56. What is Redis, and how is it used in Node.js?
+57. How do you use Redis for caching in Node.js?
+58. What is the difference between in-memory caching and database caching?
+59. What is load balancing, and how do you implement it in Node.js?
+60. What is the purpose of `cluster` module in Node.js?
+61. How do you manage multiple instances of a Node.js application?
+62. What is the difference between `fork()` and `spawn()` in child processes?
+63. How do you handle large file uploads in Node.js?
+64. What is streaming in Node.js, and how does it improve performance?
+65. What are message queues, and how are they used in Node.js?
+66. What is RabbitMQ, and how does it work in Node.js?
+67. How do you implement job scheduling in Node.js?
+68. How do you use `Bull` for job queues in Node.js?
+69. What are background jobs, and how do they work in Node.js?
+70. What is the purpose of `pm2`, and how does it work in Node.js?
+71. What are best practices for writing scalable Node.js applications?
+72. How do you implement logging in a Node.js application?
+73. What is the best way to handle errors in a Node.js application?
+74. How do you use Winston for logging in Node.js?
+75. What is the difference between application-level and request-level middleware in Express.js?
+76. How do you use middleware for logging requests in Express.js?
+77. What is the purpose of the `helmet` package in Node.js?
+78. How do you prevent SQL injection in a Node.js application?
+79. How do you handle CSRF attacks in Node.js?
+80. What is OAuth, and how is it implemented in Node.js?
+81. How do you integrate third-party authentication in a Node.js application?
+82. How do you generate secure passwords in Node.js?
+83. What are JWT tokens, and how are they stored?
+84. How do you implement refresh tokens in Node.js?
+85. How do you optimize API response times in Node.js?
+86. What is GraphQL, and how does it compare to REST?
+87. How do you implement GraphQL in a Node.js application?
+88. What are GraphQL resolvers, and how do they work?
+89. What is TypeScript, and should you use it in a Node.js project?
+90. How do you integrate TypeScript with Node.js?
+91. What is CI/CD, and how is it implemented in a Node.js application?
+92. How do you deploy a Node.js application on AWS?
+93. How do you set up auto-scaling for a Node.js application?
+94. How do you containerize a Node.js application using Docker?
+95. What is Kubernetes, and how does it help scale Node.js applications?
+96. How do you implement security best practices in a Node.js application?
+97. How do you monitor and debug a Node.js application?
+98. What is a memory leak in Node.js, and how do you prevent it?
+99. How do you handle database migrations in Node.js?
+100. What are the best practices for structuring a Node.js application?

@@ -1,0 +1,130 @@
+========================================
+      SERVER-SIDE SCRIPTING QUESTIONS
+========================================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is server-side scripting?
+2. How does server-side scripting differ from client-side scripting?
+3. What are some common server-side scripting languages?
+4. Why is server-side scripting important?
+5. What are the advantages of server-side scripting?
+6. What is Node.js, and why is it popular for server-side scripting?
+7. What is PHP, and how does it work in server-side scripting?
+8. What is Python Django used for in server-side scripting?
+9. What is Express.js, and how does it simplify backend development?
+10. How does a server process a request in server-side scripting?
+11. What is an API, and how does it relate to server-side scripting?
+12. What is the role of middleware in server-side scripting?
+13. What is RESTful API, and how does it work in server-side scripting?
+14. What is GraphQL, and how does it differ from REST?
+15. What is the role of the HTTP protocol in server-side scripting?
+16. What is the difference between GET, POST, PUT, DELETE requests?
+17. What is request handling in server-side scripting?
+18. How do you handle form submissions in a server-side script?
+19. What is an MVC architecture in server-side scripting?
+20. What is a templating engine, and why is it used in server-side scripting?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+21. What is session management in server-side scripting?
+22. How do cookies work in server-side scripting?
+23. What is the difference between a session and a cookie?
+24. What is JWT, and how does it work for authentication?
+25. How does OAuth2 work in server-side scripting?
+26. How do you handle file uploads in server-side scripting?
+27. What is the purpose of database connectivity in server-side scripting?
+28. How do you connect a server-side script to a MySQL database?
+29. How do you connect a server-side script to a MongoDB database?
+30. What are SQL injections, and how do you prevent them?
+31. What is CSRF (Cross-Site Request Forgery), and how do you prevent it?
+32. What is XSS (Cross-Site Scripting), and how do you prevent it?
+33. What is a reverse proxy, and why is it used in server-side scripting?
+34. What are caching mechanisms in server-side scripting?
+35. How do you implement caching in Node.js?
+36. How does Redis help in server-side scripting?
+37. What is API throttling, and why is it important?
+38. How do you implement rate limiting in server-side scripting?
+39. What are WebSockets, and how do they work on the server side?
+40. How do you implement real-time features in a server-side script?
+41. How do you set up authentication and authorization in server-side scripting?
+42. What is a middleware function in Express.js?
+43. How do you handle errors in server-side scripting?
+44. What is a try-catch block, and how is it used in server-side scripts?
+45. How do you handle multiple database connections in a server-side script?
+46. How do you optimize database queries in a server-side script?
+47. What is an ORM (Object-Relational Mapping) in server-side scripting?
+48. How do you use Sequelize for database management in Node.js?
+49. What is Mongoose, and how does it help with MongoDB in Node.js?
+50. How do you set up a server using Express.js?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+51. What are microservices, and how do they relate to server-side scripting?
+52. How do you design a scalable server-side application?
+53. How do you optimize server-side performance?
+54. What is load balancing, and how does it help in server-side scripting?
+55. What is horizontal scaling vs. vertical scaling in server-side scripting?
+56. How do you handle long-running processes in server-side scripting?
+57. How do you use worker threads in Node.js for performance improvement?
+58. How does the event loop work in Node.js?
+59. What are async/await and Promises in server-side scripting?
+60. What is clustering, and how does it improve server performance?
+61. How do you debug a server-side script?
+62. How do you implement logging in server-side scripting?
+63. What is Winston, and how does it help with logging?
+64. How do you store logs in a database?
+65. How do you analyze server logs for performance issues?
+66. What is the role of Docker in server-side scripting?
+67. How do you containerize a server-side application using Docker?
+68. What is Kubernetes, and how does it help with server-side deployments?
+69. What is CI/CD, and how does it help in server-side development?
+70. How do you deploy a server-side application on AWS?
+71. What is Lambda in AWS, and how does it work for server-side functions?
+72. How do you use Firebase for backend services?
+73. What is a NoSQL database, and how does it differ from SQL databases?
+74. How do you implement soft deletes in a server-side script?
+75. How do you perform batch processing in a server-side script?
+76. What is RabbitMQ, and how does it help in message queuing?
+77. How do you handle bulk inserts in a database efficiently?
+78. What is GraphQL subscription, and how does it work?
+79. How do you implement authentication in a microservices-based server?
+80. What are API gateways, and how do they improve API management?
+
+############################
+#  ENTERPRISE-LEVEL QUESTIONS  #
+############################
+
+81. What is service discovery in server-side architecture?
+82. How do you implement event-driven architecture in server-side scripting?
+83. How do you handle data replication in a server-side script?
+84. How do you manage secrets and environment variables in a server-side script?
+85. What is rate limiting in API gateways, and how does it help?
+86. How do you implement circuit breakers in a server-side application?
+87. What is distributed caching, and how does it improve performance?
+88. How do you optimize the startup time of a server-side script?
+89. What are different types of load balancers used in server-side scripting?
+90. How do you secure sensitive information in a server-side application?
+91. How do you handle memory leaks in a server-side script?
+92. What are the best practices for securing APIs?
+93. How do you implement role-based access control (RBAC) in server-side scripting?
+94. How do you migrate a monolithic server-side application to microservices?
+95. What are the best practices for designing high-performance server-side applications?
+96. What is event sourcing, and how is it used in server-side scripting?
+97. How do you ensure fault tolerance in a server-side application?
+98. How do you perform distributed tracing in a microservices-based server?
+99. What is observability in server-side development?
+100. What are the latest trends in server-side scripting?
+
+How to Prepare for Server-Side Scripting Interviews?
+✅ Understand the core concepts of server-side development (request handling, APIs, authentication, database management).
+✅ Learn performance optimization techniques such as caching, clustering, and event-driven architecture.
+✅ Work with real-world server-side frameworks like Node.js, Express.js, Django, or Laravel.
+✅ Gain hands-on experience with deployment and monitoring tools like Docker, Kubernetes, AWS, and CI/CD.
+✅ Master security best practices (authentication, authorization, API security, input validation, and error handling)."Question 2" 

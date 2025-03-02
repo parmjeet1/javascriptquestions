@@ -1,0 +1,119 @@
+
+=============================
+      GIT INTERVIEW QUESTIONS
+=============================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is Git, and why is it used?
+2. Explain the difference between Git and GitHub.
+3. How do you initialize a Git repository?
+4. What command is used to check the current Git version?
+5. How do you configure a global username and email in Git?
+6. What is the difference between `git clone` and `git init`?
+7. How do you add all files to a commit?
+8. What command is used to commit changes?
+9. What is the difference between `git pull` and `git fetch`?
+10. How do you check the status of your repository?
+11. How do you check the history of commits in Git?
+12. What is the purpose of `.gitignore`? How do you use it?
+13. What is the difference between `git reset` and `git revert`?
+14. How do you create a new branch in Git?
+15. How do you switch to another branch?
+16. How do you delete a branch locally and remotely?
+17. What is the difference between `git merge` and `git rebase`?
+18. What is a detached HEAD in Git?
+19. How do you rename a branch?
+20. How do you list all branches in a repository?
+21. How do you check the last commit in a repository?
+22. What is the difference between `git log` and `git reflog`?
+23. How do you stash your changes in Git?
+24. How do you apply stashed changes back to the working directory?
+25. What is the difference between `git stash pop` and `git stash apply`?
+26. How do you resolve merge conflicts in Git?
+27. How do you undo the last commit?
+28. How do you revert a specific commit in Git?
+29. How do you remove a file from Git tracking but keep it in the local directory?
+30. What happens when you use `git push` without setting an upstream branch?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+31. How do you force push in Git? When should it be used?
+32. What is the difference between `origin` and `upstream` in Git?
+33. How do you check which branch you are currently on?
+34. How do you list all remote branches?
+35. What is the purpose of `git cherry-pick`?
+36. How do you compare two branches in Git?
+37. What is the use of `git diff`?
+38. How do you see which files were changed in the last commit?
+39. How do you check out a specific commit in Git?
+40. How do you squash multiple commits into one?
+41. What is the difference between `git reset --soft`, `--mixed`, and `--hard`?
+42. How do you remove a remote repository from Git?
+43. How do you track a remote branch in Git?
+44. How do you set a new remote origin URL in Git?
+45. What is `git bisect`, and how is it used?
+46. What is `git submodule`, and how do you use it?
+47. How do you remove a file from the Git history permanently?
+48. What is the difference between `git rebase` and `git merge` in terms of commit history?
+49. How do you push only specific commits to a remote branch?
+50. What happens if you run `git pull --rebase`?
+51. How do you find a commit that introduced a bug?
+52. What is `git tag`, and how do you create a tag?
+53. How do you push a tag to a remote repository?
+54. How do you delete a tag locally and remotely?
+55. What is the difference between annotated and lightweight tags?
+56. What does `git remote prune origin` do?
+57. What is `git blame`, and when is it useful?
+58. How do you rename a Git repository?
+59. What is the use of `git fsck`?
+60. How do you move a commit from one branch to another?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+61. What is Git Worktree, and how is it useful?
+62. How do you migrate an SVN repository to Git?
+63. How do you recover a deleted branch in Git?
+64. How do you handle large binary files in Git?
+65. How do you manage Git history when working in a team?
+66. How does Git handle conflicts during a merge?
+67. How do you track changes in a file across renames in Git?
+68. What is `git rerere`, and how does it help in conflict resolution?
+69. What is `git replace`, and when should you use it?
+70. How do you find a specific commit in Git history?
+71. What is `git rev-parse`, and how is it useful?
+72. How do you cherry-pick multiple commits at once?
+73. What is `git update-index`, and when is it used?
+74. How do you delete a commit from a remote branch?
+75. What are `pre-receive` and `post-receive` hooks in Git?
+76. What is `git am`, and how is it different from `git apply`?
+77. How do you check if a commit exists in a branch?
+78. How do you clone a single branch from a remote repository?
+79. What is the difference between `git archive` and `git bundle`?
+80. What is `git fsck`, and when should it be used?
+81. How do you handle `detached HEAD` in Git?
+82. What is `git reflog expire`, and how does it work?
+83. How do you create a shallow clone of a repository?
+84. What is `git gc`, and how does it optimize Git repositories?
+85. What is `git worktree`, and when should you use it?
+86. How do you find and remove large files in Git history?
+87. How do you automatically sign commits with GPG?
+88. How do you verify the integrity of a Git repository?
+89. How do you roll back to a specific commit and remove all later commits?
+90. How do you split a commit into multiple smaller commits?
+91. What is `git patch`, and how is it used?
+92. How do you squash only a few specific commits in a branch?
+93. What is the difference between `git show` and `git log`?
+94. How do you migrate a project from GitHub to GitLab?
+95. How do you enable Git hooks in a project?
+96. What is `git daemon`, and when would you use it?
+97. How do you ignore file mode changes in Git?
+98. How do you configure Git to store credentials securely?
+99. How do you remove a submodule from Git history?
+100. What are the best Git practices for working in a large team?

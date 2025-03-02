@@ -1,0 +1,133 @@
+========================================
+        AWS INTERVIEW QUESTIONS
+  (EC2, S3, Lambda, RDS, API Gateway, IAM, Nginx)
+========================================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is AWS?
+2. What are the key benefits of using AWS?
+3. What is Amazon EC2?
+4. What are the different EC2 instance types?
+5. What is an AMI (Amazon Machine Image)?
+6. What is the difference between On-Demand, Reserved, and Spot Instances?
+7. What is Amazon S3, and how does it work?
+8. What are the different storage classes in S3?
+9. What is AWS Lambda?
+10. What are the benefits of AWS Lambda?
+11. What is Amazon RDS?
+12. What types of databases are supported by RDS?
+13. What is an AWS API Gateway?
+14. What is IAM (Identity and Access Management) in AWS?
+15. What are IAM users, groups, and roles?
+16. What is AWS Nginx?
+17. What is an Elastic IP in AWS?
+18. What is an AWS Security Group?
+19. What is an Auto Scaling Group (ASG) in AWS?
+20. What is an Elastic Load Balancer (ELB)?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+21. How do you launch an EC2 instance using the AWS console?
+22. How do you connect to an EC2 instance via SSH?
+23. What are key pairs in AWS?
+24. How do you configure security groups for EC2?
+25. What is an EBS (Elastic Block Store) volume?
+26. How do you create and attach an EBS volume?
+27. How do you create an S3 bucket?
+28. What are S3 bucket policies?
+29. What is S3 versioning, and how does it work?
+30. What is S3 lifecycle policy?
+31. How do you host a static website on S3?
+32. How do you enable public access to an S3 bucket?
+33. What is S3 encryption, and what are the different encryption methods?
+34. How do you trigger an AWS Lambda function?
+35. What is an event-driven architecture in AWS Lambda?
+36. How do you deploy a Lambda function?
+37. What is API Gateway, and how does it work with Lambda?
+38. How do you secure an API in API Gateway?
+39. What are REST APIs and HTTP APIs in API Gateway?
+40. What is an RDS Multi-AZ deployment?
+41. How do you create an RDS instance?
+42. How do you connect an application to an RDS instance?
+43. What is an IAM policy?
+44. How do you create and attach IAM roles to an EC2 instance?
+45. What is AWS Identity Federation?
+46. What are Managed Policies in IAM?
+47. What is AWS Cognito?
+48. How does Nginx work as a reverse proxy?
+49. How do you set up Nginx on an EC2 instance?
+50. How do you configure SSL/TLS on Nginx?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+51. How do you automate EC2 instance creation using AWS CLI?
+52. What is an EC2 Auto Scaling Group?
+53. What are the different types of Load Balancers in AWS?
+54. How do you use Elastic Load Balancer (ELB) with EC2?
+55. What is AWS CloudWatch, and how does it help monitor EC2 instances?
+56. What is an EC2 Spot Fleet?
+57. How do you create a backup of an EC2 instance?
+58. How do you restore an EC2 instance from a snapshot?
+59. What is Cross-Region Replication in S3?
+60. How do you implement S3 event notifications?
+61. What is an S3 presigned URL?
+62. What is AWS Storage Gateway?
+63. What is the difference between AWS S3 Standard and S3 Glacier?
+64. How do you monitor S3 bucket access logs?
+65. What is AWS Lambda cold start?
+66. How do you optimize AWS Lambda performance?
+67. What is the maximum execution time for an AWS Lambda function?
+68. How do you use AWS Lambda Layers?
+69. How does API Gateway caching work?
+70. How do you handle rate limiting in API Gateway?
+71. How do you enable logging in API Gateway?
+72. What is an RDS Read Replica, and how does it work?
+73. What is the difference between RDS Multi-AZ and Read Replica?
+74. How do you back up and restore an RDS database?
+75. What is AWS Aurora, and how does it differ from RDS?
+76. How do you encrypt an RDS database?
+77. How do you enforce IAM best practices?
+78. What is AWS Secrets Manager, and how does it work?
+79. How do you use AWS Systems Manager Parameter Store?
+80. How do you configure role-based access in AWS IAM?
+
+############################
+#  ENTERPRISE-LEVEL QUESTIONS  #
+############################
+
+81. How do you design a highly available architecture using EC2, ELB, and Auto Scaling?
+82. What is AWS VPC, and how does it work?
+83. How do you set up a VPC with public and private subnets?
+84. How do you use AWS Direct Connect?
+85. What is AWS CloudFormation, and how does it help in infrastructure as code (IaC)?
+86. How do you deploy a serverless application using AWS SAM or Serverless Framework?
+87. How do you optimize AWS Lambda cost and execution time?
+88. What is AWS Fargate, and how does it differ from Lambda?
+89. How do you secure an EC2 instance using IAM and security groups?
+90. How do you implement cross-account access in AWS?
+91. What is AWS Organizations, and how does it help manage multiple accounts?
+92. What are AWS Config Rules, and how do they help with compliance?
+93. How do you automate security audits in AWS?
+94. What is AWS Shield, and how does it protect against DDoS attacks?
+95. How do you use AWS WAF to filter traffic?
+96. How do you troubleshoot API Gateway latency issues?
+97. What are best practices for securing API Gateway endpoints?
+98. How do you monitor application performance using AWS X-Ray?
+99. How do you set up Blue/Green deployments in AWS?
+100. What are the latest trends in AWS cloud computing?
+
+How to Prepare for AWS Interviews?
+✅ Understand core AWS services (EC2, S3, Lambda, RDS, API Gateway, IAM).
+✅ Learn how to deploy, manage, and optimize AWS resources.
+✅ Get comfortable with networking concepts like VPC, security groups, and IAM policies.
+✅ Understand how to secure AWS applications using encryption, access controls, and monitoring.
+✅ Gain hands-on experience with AWS CLI, CloudFormation, and Terraform.
+
+This covers everything from basic to enterprise-level topics in AWS! 🚀

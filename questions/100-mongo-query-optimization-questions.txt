@@ -1,0 +1,130 @@
+========================================
+    MONGODB QUERY OPTIMIZATION QUESTIONS
+========================================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is MongoDB query optimization?
+2. Why is query optimization important in MongoDB?
+3. How do you analyze query performance in MongoDB?
+4. What is an index in MongoDB?
+5. How do indexes improve query performance?
+6. How do you create an index in MongoDB?
+7. How do you check existing indexes in a collection?
+8. What is the difference between single-field and compound indexes?
+9. What is the `explain()` method in MongoDB?
+10. How do you use `explain()` to analyze a query?
+11. What is the `executionStats` mode in `explain()`?
+12. What does `queryPlanner` mode do in `explain()`?
+13. What are covered queries in MongoDB?
+14. How do you create a covered query?
+15. How do you optimize a query using indexing?
+16. What is an ascending (`1`) and descending (`-1`) index in MongoDB?
+17. How do you remove an index in MongoDB?
+18. How do you force a query to use a specific index?
+19. What is `$hint`, and how is it used?
+20. How do you analyze query execution time in MongoDB?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+21. What are the types of indexes available in MongoDB?
+22. What is a compound index, and how does it work?
+23. When should you use a compound index?
+24. How does index order affect query performance?
+25. What is an index prefix in MongoDB?
+26. How do you determine if an index is being used in a query?
+27. What happens if an index is not used in a query?
+28. What is a multikey index in MongoDB?
+29. How do multikey indexes affect query performance?
+30. What is a hashed index, and when should you use it?
+31. What are wildcard indexes, and how do they work?
+32. What is a text index, and how is it used in full-text search?
+33. How do you create a text index in MongoDB?
+34. How do you search multiple fields using a text index?
+35. What is `$meta: "textScore"` in MongoDB?
+36. How do you optimize text search queries?
+37. What is a geospatial index in MongoDB?
+38. How do you use `$geoNear` for geospatial queries?
+39. How do you optimize geospatial queries?
+40. How do indexes affect write performance in MongoDB?
+41. What is the difference between a unique index and a regular index?
+42. How do unique indexes impact query optimization?
+43. What is an index key limit in MongoDB?
+44. How do you deal with large index sizes?
+45. What is index fragmentation, and how does it affect performance?
+46. How do you rebuild indexes in MongoDB?
+47. What is the impact of too many indexes on performance?
+48. How do you balance read and write performance with indexes?
+49. What is `$orderby`, and how does it relate to indexing?
+50. How do you optimize sorting queries in MongoDB?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+51. How do you optimize queries that involve `$or` conditions?
+52. What is `$elemMatch`, and how does it improve performance?
+53. How do you optimize queries that filter inside an array?
+54. How do you optimize `$in` and `$nin` queries?
+55. How do you optimize `$exists` queries?
+56. What is `$mod`, and how does it impact query performance?
+57. How do you optimize range queries using indexes?
+58. What is `$expr`, and how does it affect query performance?
+59. What is `$where`, and why should it be avoided?
+60. How do you replace `$where` with aggregation?
+61. How do you optimize queries that involve `$lookup`?
+62. How do you optimize queries that use `$unwind`?
+63. How does `$match` affect performance in aggregation?
+64. How do you optimize queries that use `$group`?
+65. What is `$facet`, and how does it affect performance?
+66. How do you optimize `$bucket` and `$bucketAuto` queries?
+67. What is `$merge`, and how does it impact performance?
+68. How do you optimize `$sort` in an aggregation pipeline?
+69. How do you avoid large memory usage in aggregation?
+70. How do you optimize queries that use `$text` search?
+71. What is `$regex`, and why is it slow?
+72. How do you optimize regex queries in MongoDB?
+73. How do you index case-insensitive queries?
+74. How do you use `$expr` efficiently in queries?
+75. How does `$push` impact performance in updates?
+76. How do you optimize `$set` operations?
+77. How do you optimize `$inc` operations?
+78. How do you optimize queries that modify large documents?
+79. How does `$addToSet` compare to `$push` for performance?
+80. How do you optimize updates to embedded documents?
+
+############################
+#  SCALABILITY QUESTIONS  #
+############################
+
+81. What is sharding in MongoDB?
+82. How does sharding improve query performance?
+83. What is a shard key, and how does it affect query optimization?
+84. How do you choose the right shard key?
+85. What is the impact of an unbalanced shard key?
+86. What is `$mergeCursors`, and how does it work in sharding?
+87. How do you optimize queries in a sharded environment?
+88. How does replication affect query performance?
+89. How do you monitor query performance in a MongoDB cluster?
+90. What tools can you use for MongoDB performance monitoring?
+91. How do you use `$collStats` for query optimization?
+92. How do you analyze disk usage of indexes?
+93. How do you use `db.collection.stats()` for performance insights?
+94. What is the WiredTiger storage engine, and how does it affect query optimization?
+95. How do you optimize memory usage in MongoDB?
+96. How do you optimize MongoDB for high write throughput?
+97. How do you configure `readConcern` for performance?
+98. How do you use `writeConcern` efficiently?
+99. What are the best practices for query performance optimization?
+100. How do you troubleshoot slow queries in MongoDB?
+
+How to Prepare for MongoDB Query Optimization?
+✅ Understand different types of indexes (single, compound, multikey, text, geospatial).
+✅ Learn how to analyze query performance using explain().
+✅ Optimize sorting, filtering, and aggregation queries with indexing.
+✅ Avoid performance pitfalls such as $regex, $where, and $or queries.
+✅ Practice query optimization in real-world applications with high data loads.

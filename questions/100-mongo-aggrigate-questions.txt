@@ -1,0 +1,125 @@
+========================================
+      MONGODB AGGREGATION QUESTIONS
+========================================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is MongoDB Aggregation?
+2. What is an aggregation pipeline in MongoDB?
+3. How is aggregation different from the `find()` method?
+4. What are the main stages of an aggregation pipeline?
+5. What is the `$match` stage in aggregation?
+6. How do you use `$match` to filter documents?
+7. What is the `$group` stage in aggregation?
+8. How do you count documents using aggregation?
+9. What is the `$project` stage in aggregation?
+10. How do you use `$sort` in an aggregation pipeline?
+11. What is `$limit` in MongoDB aggregation?
+12. What is `$skip` in MongoDB aggregation?
+13. What is `$unwind` in MongoDB aggregation?
+14. What is `$addFields` used for in aggregation?
+15. What is the difference between `$addFields` and `$project`?
+16. How do you rename fields in an aggregation pipeline?
+17. How do you remove fields in an aggregation pipeline?
+18. How do you calculate the sum of a field using aggregation?
+19. How do you calculate the average of a field using aggregation?
+20. How do you get the maximum and minimum values using aggregation?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+21. How do you combine multiple stages in an aggregation pipeline?
+22. How do you filter documents based on multiple conditions using `$match`?
+23. How do you use `$expr` inside `$match`?
+24. How do you calculate the total sales per product using `$group`?
+25. How do you get the first and last documents using `$group`?
+26. How do you create a new field based on an existing field using `$addFields`?
+27. What is `$push`, and how is it used in `$group`?
+28. What is `$lookup` in MongoDB aggregation?
+29. How do you perform a left join using `$lookup`?
+30. What are `$graphLookup` and its use cases?
+31. How do you create computed fields using `$addFields`?
+32. How do you merge two collections using `$lookup`?
+33. How do you filter joined documents in `$lookup`?
+34. How do you perform a self-join using `$lookup`?
+35. What is `$facet`, and how does it work?
+36. How do you implement pagination using aggregation?
+37. What is `$bucket`, and how does it work?
+38. How do you group documents into equal-sized buckets?
+39. How do you create custom bucket boundaries using `$bucket`?
+40. What is `$bucketAuto`, and how does it differ from `$bucket`?
+41. How do you calculate the percentage of total in aggregation?
+42. What is `$redact`, and how is it used for filtering documents?
+43. How do you use `$mergeObjects` in an aggregation pipeline?
+44. What is `$replaceRoot`, and how does it work?
+45. What is `$replaceWith`, and how does it differ from `$replaceRoot`?
+46. How do you use `$setUnion` in aggregation?
+47. What is `$setIntersection`, and how is it used?
+48. What is `$setDifference`, and how does it work?
+49. How do you calculate the difference between two date fields in aggregation?
+50. How do you extract the year, month, or day from a date using `$dateToString`?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+51. How do you calculate the total revenue per month using aggregation?
+52. How do you get the most recent document for each group?
+53. How do you find the top N documents per group?
+54. How do you use `$cond` for conditional logic in aggregation?
+55. How do you create a conditional field using `$ifNull`?
+56. How do you use `$switch` in an aggregation query?
+57. How do you use `$filter` to process arrays in aggregation?
+58. How do you count array elements in aggregation?
+59. How do you check if an array contains a specific value using aggregation?
+60. How do you flatten an array in aggregation?
+61. How do you use `$reduce` in aggregation?
+62. What is `$map`, and how does it transform array fields?
+63. How do you use `$zip` to merge arrays?
+64. How do you use `$arrayElemAt` to get a specific element in an array?
+65. How do you sort array elements in aggregation?
+66. How do you get the distinct values of a field in aggregation?
+67. What is `$out`, and how does it save results to a collection?
+68. How do you merge aggregation results into an existing collection using `$merge`?
+69. What is the difference between `$out` and `$merge`?
+70. How do you handle large datasets efficiently in aggregation?
+71. How do you optimize aggregation queries for performance?
+72. How do you use `$indexStats` to analyze aggregation performance?
+73. What is `$geoNear`, and how does it work with geospatial data?
+74. How do you find nearby locations using `$geoNear`?
+75. How do you calculate the distance between two locations in aggregation?
+76. How do you use `$densify` to generate missing values in aggregation?
+77. How do you use `$fill` to replace null values in aggregation?
+78. How do you use `$sortByCount` to count unique values?
+79. How do you extract a substring using `$substr`?
+80. How do you convert a string to lowercase using `$toLower`?
+81. How do you convert a string to uppercase using `$toUpper`?
+82. How do you replace a substring in an aggregation pipeline?
+83. How do you convert a date to ISO format in aggregation?
+84. How do you convert a string to a date in aggregation?
+85. How do you format a date using `$dateToString`?
+86. How do you calculate age from a birthdate using aggregation?
+87. How do you compare two date fields using aggregation?
+88. How do you find duplicate documents in aggregation?
+89. How do you generate a unique ID inside an aggregation pipeline?
+90. How do you remove duplicate documents using aggregation?
+91. How do you perform complex text searches in aggregation?
+92. How do you compute moving averages in an aggregation pipeline?
+93. How do you rank documents based on a field in aggregation?
+94. How do you calculate running totals using aggregation?
+95. How do you aggregate logs and group them by time intervals?
+96. How do you normalize data in an aggregation pipeline?
+97. How do you use `$sample` to get random documents?
+98. How do you perform fuzzy matching using aggregation?
+99. What are best practices for writing efficient aggregation queries?
+100. How do you debug and optimize aggregation pipelines?
+
+How to Prepare for a MongoDB Aggregation Interview?
+✅ Understand all major aggregation stages like $match, $group, $lookup, $project, $unwind, etc.
+✅ Practice real-world use cases such as sales reports, user analytics, geospatial queries, and data transformations.
+✅ Optimize aggregation performance by indexing and query optimization techniques.
+✅ Be comfortable with array and string manipulations using aggregation operators.
+✅ Work with MongoDB Atlas, Compass, and shell queries for hands-on experience.

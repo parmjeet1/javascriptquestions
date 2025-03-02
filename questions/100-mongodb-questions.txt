@@ -1,0 +1,127 @@
+========================================
+        MONGODB INTERVIEW QUESTIONS
+========================================
+
+###########################
+#      BASIC QUESTIONS    #
+###########################
+
+1. What is MongoDB, and why is it used?
+2. How does MongoDB differ from SQL databases?
+3. What is a NoSQL database, and how does MongoDB fit into it?
+4. What are the advantages of MongoDB?
+5. How do you install MongoDB?
+6. What is a document in MongoDB?
+7. What is a collection in MongoDB?
+8. What is a database in MongoDB?
+9. How do you start and stop the MongoDB server?
+10. How do you check the MongoDB version?
+11. How do you connect to a MongoDB database?
+12. How do you create a new database in MongoDB?
+13. How do you create a new collection in MongoDB?
+14. How do you insert a document into a MongoDB collection?
+15. What is the difference between `insertOne()` and `insertMany()`?
+16. How do you update a document in MongoDB?
+17. What is the difference between `updateOne()` and `updateMany()`?
+18. How do you delete a document in MongoDB?
+19. What is the difference between `deleteOne()` and `deleteMany()`?
+20. How do you find all documents in a MongoDB collection?
+
+############################
+#  INTERMEDIATE QUESTIONS  #
+############################
+
+21. How do you filter documents using `find()` in MongoDB?
+22. How do you use comparison operators in MongoDB queries?
+23. What are projection fields in MongoDB?
+24. How do you sort documents in MongoDB?
+25. How do you limit the number of documents returned?
+26. How do you skip documents in MongoDB?
+27. What are indexes in MongoDB, and why are they used?
+28. How do you create an index in MongoDB?
+29. How do you check the indexes of a collection?
+30. How do you drop an index in MongoDB?
+31. What are compound indexes in MongoDB?
+32. What is a unique index in MongoDB?
+33. What is the difference between `findOne()` and `find()`?
+34. How do you count documents in a collection?
+35. How do you check if a field exists in a document?
+36. What is the `$exists` operator in MongoDB?
+37. How do you update a document without overriding the existing fields?
+38. What is the `$set` operator in MongoDB?
+39. How do you increment a field's value in MongoDB?
+40. What is the `$inc` operator in MongoDB?
+41. How do you remove a specific field from a document?
+42. What is the `$unset` operator in MongoDB?
+43. How do you rename a field in MongoDB?
+44. What is the `$rename` operator in MongoDB?
+45. How do you update an array field in MongoDB?
+46. What is the `$push` operator in MongoDB?
+47. What is the `$pull` operator in MongoDB?
+48. What is the `$addToSet` operator in MongoDB?
+49. How do you query nested fields in MongoDB?
+50. What is the purpose of the `$elemMatch` operator?
+
+#########################
+#  ADVANCED QUESTIONS  #
+#########################
+
+51. What is an aggregation pipeline in MongoDB?
+52. What are the stages in an aggregation pipeline?
+53. How do you use `$match` in an aggregation query?
+54. How do you use `$group` in an aggregation query?
+55. How do you use `$project` in an aggregation query?
+56. What is the `$unwind` stage in aggregation?
+57. How do you sort results in an aggregation pipeline?
+58. How do you filter documents in an aggregation pipeline?
+59. What is `$lookup` in MongoDB, and how does it work?
+60. How do you perform a left join using `$lookup`?
+61. What is `$facet`, and when should you use it?
+62. How do you calculate averages in an aggregation query?
+63. How do you count documents in an aggregation query?
+64. How do you get the maximum value of a field using aggregation?
+65. How do you use `$out` in an aggregation query?
+66. How do you use `$merge` in an aggregation query?
+67. How do you optimize aggregation queries?
+68. What are the best practices for designing aggregation pipelines?
+69. What is sharding in MongoDB?
+70. How does MongoDB partition data in a sharded cluster?
+71. What is a shard key in MongoDB?
+72. How do you choose a good shard key?
+73. What is the difference between horizontal and vertical scaling in MongoDB?
+74. How do you monitor the performance of a MongoDB cluster?
+75. What is replication in MongoDB?
+76. What are the benefits of using replication?
+77. How do you set up a replica set in MongoDB?
+78. What is an arbiter in MongoDB replication?
+79. How do you promote a secondary node to primary in a replica set?
+80. How does failover work in MongoDB replication?
+81. How do you perform a backup of a MongoDB database?
+82. What is the difference between `mongodump` and `mongoexport`?
+83. What is the difference between `mongorestore` and `mongoimport`?
+84. How do you restore a MongoDB backup?
+85. How do you migrate data between MongoDB databases?
+86. What are TTL indexes in MongoDB?
+87. How do you set up TTL indexes for automatic deletion of documents?
+88. How do you store large files in MongoDB?
+89. What is GridFS, and when should it be used?
+90. How do you use GridFS to store and retrieve files?
+91. How do you secure a MongoDB database?
+92. What are best practices for MongoDB authentication and authorization?
+93. How do you prevent SQL injection in MongoDB queries?
+94. What is role-based access control (RBAC) in MongoDB?
+95. How do you enable authentication in MongoDB?
+96. How do you perform database transactions in MongoDB?
+97. What are multi-document transactions in MongoDB?
+98. How do transactions affect performance in MongoDB?
+99. What are the best practices for indexing in MongoDB?
+100. What are the differences between MongoDB Atlas and self-hosted MongoDB?
+
+
+
+How to Prepare for a MongoDB Interview?
+✅ Practice CRUD operations on collections and documents.
+✅ Understand indexing, query optimization, and aggregation pipelines.
+✅ Learn how replication, sharding, and failover work.
+✅ Be comfortable with data security, role-based access, and authentication.
+✅ Know how to integrate MongoDB with Node.js, Express.js, and other frameworks.
